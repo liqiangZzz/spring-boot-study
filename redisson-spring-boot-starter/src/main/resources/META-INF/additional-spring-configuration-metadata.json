@@ -1,0 +1,13 @@
+{
+  "properties": [{
+    "name": "lq.redisson.host",
+    "type": "java.lang.String",
+    "description": "Redis的服务地址",
+    "defaultValue": "localhost"
+  },{
+    "name": "lq.redisson.port",
+    "type": "java.lang.Integer",
+    "description": "Redis的服务端口",
+    "defaultValue": 6379
+  }]
+}
