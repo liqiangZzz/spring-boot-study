@@ -1,6 +1,5 @@
 package com.lq.import2;
 
-import com.lq.config.MyBatisConfig;
 import com.lq.import2.service.PersonService;
 import com.lq.service.UserService;
 import org.springframework.context.ApplicationContext;

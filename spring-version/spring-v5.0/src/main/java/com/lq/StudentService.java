@@ -2,7 +2,6 @@ package com.lq;
 
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Indexed;
-import org.springframework.stereotype.Service;
 
 /**
  * @ClassName StudentService

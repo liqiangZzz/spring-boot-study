@@ -1,7 +1,5 @@
 package com.lq.service;
 
-import org.springframework.stereotype.Service;
-
 /**
  * @ClassName UserService
  * @Description
