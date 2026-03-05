@@ -16,9 +16,7 @@ public class JavaMain {
     public static void main(String[] args) {
         ServiceLoader<BaseData> providers = ServiceLoader.load(BaseData.class);
 
-        Iterator<BaseData> iterator = providers.iterator();
-        while (iterator.hasNext()) {
-            BaseData baseData = iterator.next();
+        for (BaseData baseData : providers) {
             baseData.baseURL();
         }
     }

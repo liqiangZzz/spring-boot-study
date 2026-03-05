@@ -54,6 +54,7 @@ public class ConditionalConfig {
     @ConditionalOnBean(name = "primaryProductService")
     public ProductService conditionalProductService() {
         System.out.println("提供方创建的conditionalProductService Bean");
-        return new ProductService(); // 提供增强功能的ProductService实例
+        // 提供增强功能的ProductService实例
+        return new ProductService();
     }
 }
